@@ -116,16 +116,17 @@
 		</plugins>
 	</build>
 
-
- <distributionManagement>
-  <repository>
-    <id>maven-releases</id>
-    <url>http://18.201.50.8:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>maven-snapshots</id>
-    <url>http://18.201.50.8:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>mt-frontend-ep-mvn-local-repo-releases</name>
+        <url>https://trialpwswjg.jfrog.io/artifactory/mvn-local-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>mt-frontend-ep-mvn-local-repo-snapshots</name>
+        <url>https://trialpwswjg.jfrog.io/artifactory/mvn-local-repo</url>
+    </snapshotRepository>
 </distributionManagement>
 
 
