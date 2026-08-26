@@ -165,19 +165,17 @@
 
         <!-- Release artifacts -->
         <repository>
-            <id>central</id>
-            <name>mt-frontend-ep-mvn-local-repo-releases</name>
+            <id>maven-releases</id>
             <url>
-                https://trialpwswjg.jfrog.io/artifactory/mvn-local-repo
+                http://3.252.143.136:8081/repository/maven-releases/
             </url>
         </repository>
 
         <!-- Snapshot artifacts -->
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>mt-frontend-ep-mvn-local-repo-snapshots</name>
+            <id>maven-snapshots</id>
             <url>
-                https://trialpwswjg.jfrog.io/artifactory/mvn-local-repo
+                http://3.252.143.136:8081/repository/maven-snapshots/
             </url>
         </snapshotRepository>
 
