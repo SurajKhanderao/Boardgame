@@ -163,22 +163,17 @@
     <!-- JFrog Artifactory -->
     <distributionManagement>
 
-        <!-- Release artifacts -->
-        <repository>
-            <id>maven-releases</id>
-            <url>
-                http://3.252.143.136:8081/repository/maven-releases/
-            </url>
-        </repository>
+      <repository>
+        <id>central</id>
+        <name>mt-frontend-ep-suraj-libs-release-local-releases</name>
+        <url>https://trialpwswjg.jfrog.io/artifactory/suraj-libs-release-local</url>
+    </repository>
 
-        <!-- Snapshot artifacts -->
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>
-                http://3.252.143.136:8081/repository/maven-snapshots/
-            </url>
-        </snapshotRepository>
-
+      <snapshotRepository>
+        <id>snapshots</id>
+        <name>mt-frontend-ep-suraj-libs-snapshot-local-snapshots</name>
+        <url>https://trialpwswjg.jfrog.io/artifactory/suraj-libs-snapshot-local</url>
+    </snapshotRepository>
     </distributionManagement>
 
 </project>
